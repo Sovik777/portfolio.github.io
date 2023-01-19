@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main_nav{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color:burlywood;
+    border: 5PX solid;
+    border-radius: 20px;
+    margin: 2px;
+}
+.sovik1{
+    margin:40px 200px ;
+}
+.sovik{
+    background-color: aquamarine;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: x-large;
+   
+}
+.sovik a{
+    font-size: large;
+    font-weight:bolder;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+.sovik a:hover{
+    width: 20px;
+   color: rgb(230, 59, 12);
+}
+.hire{
+    cursor: pointer;
+    width:130px;
+    height: 50px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.hire:hover{
+    color: rgb(229, 53, 53);
+}
+.home{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30% 0px 0px 60%;
+    height: 1000px;
+    width: 100%;
+    color:black;
+    background-image:url(sovik1.jpg);
+    background-repeat: no-repeat;
+}
+.home a{
+    padding: 10px;
+    border: 4px solid rgb(48, 9, 219);
+    text-decoration: none;
+    border-radius:10px;
+    color:black;
+    font-size:x-large;
+}
+.home a:hover{
+    background-color: rgb(32, 196, 114);
+}
+
+.about1{
+    background-color:chocolate;
+    padding-top:10px;
+    color: aquamarine;
+    text-align: center;
+    font-size:55px;
+    font-weight: bolder;
+}
+
+.about .about_img2{
+    width: 80%;
+    border: 5px dashed black;
+    margin-bottom: 50px;
+    
+}
+.about .about_txt{
+    margin-top:50px;
+    font-size: larger;
+}
+.education .itag{
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 59%;
+}.education{
+    font-size:x-large;
+}
+.skills{
+    font-size: xx-large;
+}
+.skills h4{
+    font-weight: bolder;
+}
+footer{
+    display: inline;
+}
+.form1{
+    opacity: 0.9;
+    border: 5px solid black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 80%;
+    padding: 50PX;
+    background-color:burlywood;
+    text-align: center;
+    border-radius: 10%;
+}
+.form1 input,textarea,button{
+    border-radius: 10px;          
+}
+label{
+  font-size:x-large;
+}
+button{
+    font-size: x-large;
+    padding: 20px;
+    background-color:coral;
+    font-weight: bolder;
+}
+button:hover{
+    background-color:forestgreen;
+}
+.footer1{
+    font-size: larger;
+    opacity: 0.9;
+    margin-top: 200px;
+    background-color:burlywood;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.footer1 i{
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder; 
+}
+.footer_1{
+    width: 100%;
+   background-image: url(download.jfif);
+   background-size: cover;
+}
+.img_cert img{
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img_cert img:hover {
+    box-shadow: 0px 0px 30px 0px rgba(25, 156, 77, 0.3);
+    border: 5px solid aqua;
+    transform: scale(1.2);
+}
