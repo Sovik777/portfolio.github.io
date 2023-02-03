@@ -154,6 +154,6 @@ button:hover{
 .img_cert img:hover {
     box-shadow: 0px 0px 30px 0px rgba(25, 156, 77, 0.3);
     border: 5px solid aqua;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
 }
